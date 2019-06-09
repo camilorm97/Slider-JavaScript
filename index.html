@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Marvel Comics</title>
+        <meta name="description" content="contenido de MarvelComics">
+        <link rel="icon" type="image/png" href="maravilla.png">
+        <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="marvel.js"></script>
+    </head>
+    <body>
+      <div id="contenedor-marvel">
+          <div id="caja-titulo-Marvel">
+
+                      <div id="home">
+                        <img id="homeBack" src="comenzar.png">
+                      </div>
+
+                  <h1 id="titulo-Marvel">El Universo Marvel</h1>
+          </div>
+          <div id="cajaSlider">
+              <div class="imagenMarvel principalMarvel">
+                <img src="avengers.jpg">
+              </div>
+              <div class="imagenMarvel secundarios">
+                <img src="ultron.jpg">
+              </div>
+              <div class="imagenMarvel secundarios">
+                <img src="infinitywar.jpeg">
+              </div>
+              <div class="imagenMarvel secundarios">
+                <img src="endgame.jpg">
+              </div>
+              <div class="imagenMarvel secundarios">
+                <img  src="xmen.jpg">
+              </div>
+              <div class="imagenMarvel secundarios">
+                <img  src="guardianes.jpg">
+              </div>
+              <div class="imagenMarvel secundarios">
+                <img  src="stanlee.jpg">
+              </div>
+
+                  <button onclick="atras();" id="botonIzquierdo">
+                      <img id="controlIzquierdo" src="anterior.png">
+                    </button>
+                    <button onclick="adelante();" id="botonDerecho">
+                      <img id="controlDerecho" src="proximo.png">
+                    </button>
+                  <form id="puntos">
+                    <input id="radio1" onload="check();" onclick="radio(0);" class="circulos primero" type="radio" name="circulos" checked>
+                    <input id="radio2" onload="check();" onclick="radio(1);" class="circulos" type="radio" name="circulos">
+                    <input id="radio3" onload="check();" onclick="radio(2);" class="circulos" type="radio" name="circulos">
+                    <input id="radio4" onload="check();" onclick="radio(3);" class="circulos" type="radio" name="circulos">
+                    <input id="radio5" onload="check();" onclick="radio(4);" class="circulos" type="radio" name="circulos">
+                    <input id="radio6" onload="check();" onclick="radio(5);" class="circulos" type="radio" name="circulos">
+                    <input id="radio7" onload="check();" onclick="radio(6);" class="circulos" type="radio" name="circulos">
+                  </form>
+          </div>
+      </div>
+    </body>
+</html>

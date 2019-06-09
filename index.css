@@ -1,0 +1,115 @@
+#contenedor-marvel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: auto;
+    background: linear-gradient(120deg, #7C0D08, #DA0E04);
+}
+
+
+body, html {
+    width: 100%;
+    margin: 0 auto;
+}
+
+home{
+  position: relative;
+  z-index: 1;
+  float: left;
+  border-radius: 100%;
+}
+
+#homeBack{
+  width: 4%;
+  height: 4%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+  position: relative;
+  z-index: 1;
+}
+
+#caja-titulo-Marvel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+#titulo-Marvel {
+    font-size: 350%;
+    font-family: 'Monoton', cursive;
+    color: white;
+}
+
+
+#cajaSlider{
+    width: 70%;
+    height: 55%;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 14%;
+    border: 2px solid black;
+    z-index: 5;
+}
+
+.imagenMarvel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  visibility: hidden;
+}
+
+.imagenMarvel img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+.principalMarvel{
+  visibility: visible;
+}
+
+
+button {
+  position: relative;
+  z-index: 1;
+  margin-top: 19%;
+  border-radius: 100%;
+  opacity: 0.6;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color:#0B443F ;
+  opacity: 0.9;
+}
+
+#botonDerecho {
+  float: right;
+  margin-right: 1%;
+}
+
+#botonIzquierdo{
+  float: left;
+  margin-left: 1%;
+}
+
+#puntos {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  bottom: 0;
+}
+
+.circulos{
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+
+/*------------------------------------MARVEL--------------------------------------*/
